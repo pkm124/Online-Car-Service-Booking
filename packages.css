@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.package-card {
+    margin-top: 2em;
+    margin-left: 3em;
+    width: 46em;
+    height: 25em;
+    background-color: #d1d1d1;
+    /*margin-bottom: 20px;*/
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.price{
+    margin-left: 15rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.pic{
+    width: 190px;
+    height: 115px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15rem;
+    padding-top: 17px;
+}
+
+.heading{
+    padding-left: 15rem;
+}
+
+.body{
+    display: grid;
+    place-items: center;
+    min-height: 35vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.content{
+    margin-left: 15rem;
+    margin-top: 10px;
+    
+}
+
+.properties{
+    margin-left: 15rem;
+    margin-top: 10px;
+    font-weight: bold;
+}

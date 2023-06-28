@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+.abc2
+{
+    padding: 20px;
+    border-radius: 0.3rem;
+    background-color:#e40046;
+}
+.tab2{
+    padding: 10px;
+    margin-left: 27rem;
+    margin-top: 10rem;
+}
+.xyz2{
+    border-radius: 0.3rem;
+    padding: 10px;
+
+    color: white;
+}
+.row{
+    padding: 15px;
+    background-color: #E08282 ;
+    border-radius: 3px;
+}
+.xyz1{
+    padding: 10px;
+    border-radius: 3px;
+    color:black;
+}
+.abc1
+{
+    padding: 20px;
+    background-color:#E08282  ;
+border-radius: 0.3rem;
+}

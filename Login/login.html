@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="login.css">
+    </head>
+<body>
+    <ul>
+        <label class="swap2"for="cars">MECHBUDDY!</label>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us </a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="Swapnil">
+    <div class="form-box">
+        <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="Login()">Log In</button>
+            <button type="button" class="toggle-btn"onclick="Register()">Register</button>
+        </div>
+        <form id="Login" class="input-group">
+            <select name="User"id="User" class="dropdown">
+                <option selected="selected" class="optiondrop">Select User Type: </option>
+                <option value="Customer" class="optiondrop">Customer</option>
+                <option value="Admin" class="optiondrop">Admin</option>
+            </select>
+            <input type="text" class="input-field"placeholder="User Id"required>
+            <input type="text" class="input-field"placeholder="Password"required>
+            <input type="checkbox" class="checkbox"><span>Remember Password</span>
+            <button type="submit " class="submit-btn">Login</button>
+        </form>
+        <form id="Register"class="input-group">
+            <label class="swap1"for="cars">Select User Type:</label>
+            <select name="User"id="User">
+                <option value="Customer">Customer</option>
+                <option value="Admin">Admin</option>
+              </select>
+            <input type="text" class="input-field"placeholder="User Id"required>
+            <input type="text" class="input-field"placeholder="Email Id"required>
+            <input type="password" class="input-field"placeholder="Password"required>
+            <input type="password" class="input-field"placeholder="Confirm Password"required>
+            <input type="checkbox" class="checkbox"><span>I agree to the terms and conditions</span>
+            <button type="submit " class="submit-btn">Register</button>
+        </form>
+    </div>
+    </div>
+    <script>
+        var x=document.getElementById("Login")
+        var y=document.getElementById("Register")
+        var z=document.getElementById("btn")
+        function Register()
+        {
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+        function Login()
+        {
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0px";
+        }
+    </script>
+</body>    
+</html>

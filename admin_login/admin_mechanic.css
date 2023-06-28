@@ -1,0 +1,76 @@
+.mechanic{
+    margin-left: 36.5rem;
+    font-size: 2rem;
+}
+
+.button{
+    /* margin-left: 17rem; */
+    font-size: 1rem;
+    display: inline;
+    padding: 8px 20px;
+    margin-right: 5px;
+    border: 2px solid #072944;
+    color: rgb(255, 255, 255);
+    border-radius: 9px;
+    cursor: pointer;
+    transition: all 0.5s;
+    background: #072944;
+
+}
+
+.button:hover{
+    border: 2px solid #072944;
+    background-color: white;
+    color: #072944;
+}
+
+.addbutton{
+    margin-left: 30rem;
+}
+
+input[type="text"],input[type="email"],input[type="tel"], input[type="password"]{
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-left: 31rem;
+    width: 21rem;    
+
+
+}
+
+input[type="submit"]{
+    font-size: 1rem;
+    display: inline;
+    padding: 8px 20px;
+    margin-right: 5px;
+    border: 2px solid #072944;
+    color: rgb(255, 255, 255);
+    border-radius: 9px;
+    cursor: pointer;
+    transition: all 0.5s;
+    background: #072944;
+
+}
+
+input[type="submit"]:hover{
+    border: 2px solid #072944;
+    background-color: white;
+    color: #072944;
+}
+
+.submit{
+    margin-left: 36.8rem;
+    margin-top: 10px;
+}
+
+textarea{
+    margin-left: 30rem;
+    width: 23rem;
+    margin-top: 7px;
+    padding: 2px 11px;
+}
+
+.showbutton{
+    margin-left: 24rem;
+
+}

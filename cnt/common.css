@@ -1,0 +1,338 @@
+.body {
+    background-color: whitesmoke;
+}
+@media (min-width: 769px) {
+    
+    .contact-card {
+        margin-top: 3.5em;
+        margin-left: 3em;
+        width: 38em;
+        height: 30em;
+        border-radius: 6px;
+        box-shadow: -2px 10px 17px 7px rgb(45 60 70 / 14%);
+        background-color: #ffffff;
+        margin-bottom: 20px;
+    }
+    .contact-card1 {
+        margin-top: -31.1rem;
+        margin-left: 45em;
+        width: 38em;
+        height: 30em;
+        border-radius: 6px;
+        box-shadow: -2px 10px 17px 7px rgb(45 60 70 / 14%);
+        background-color: #ffffff;
+        margin-bottom: 20px;
+    }
+}
+.h1-1 {
+    padding-top: 1.5em;
+    font-family: Gilroy,sans-serif;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    color: #757575;
+    font-size: 1.5rem;
+}
+.h1-2 {
+    padding-top: 1.5em;
+    font-family: Gilroy,sans-serif;
+    padding-left: 1em;
+    padding-bottom: 0em;
+    color: #757575;
+    font-size: 1.5rem;
+}
+.h1-3 {
+    padding-top: 1.5em;
+    font-family: Gilroy,sans-serif;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    font-size: 1.5rem;
+}
+.hr-1 {
+    border: 2px solid #114455;
+    margin-left: 2.5rem;
+    width: 23rem;
+    border-radius: 10px;
+}
+a {
+    text-decoration: none;
+    color: #E73C33;
+}
+p {
+    padding-top: 0em;
+    font-family: Gilroy,sans-serif;
+    padding-left: 1.5em;
+    padding-bottom: 0em;
+    color: #757575;
+    font-size: 1.05rem;
+}
+input[type=text] {
+    margin-left: 1.5rem;
+    border: none;
+    background-color: lightgray;
+    color: black;
+    height: 3em;
+    padding-left: 1em;
+    width: 30rem;
+}
+input[type=email] {
+    margin-left: 1.5rem;
+    border: none;
+    background-color: lightgray;
+    color: black;
+    height: 3em;
+    padding-left: 1em;
+    width: 30rem;
+}
+input[type=submit] {
+    margin-left: 1.5rem;
+    border: none;
+    background-color: #114455;
+    color: white;
+    height: 2.7em;
+    padding-left: 0.4em;
+    padding-top: 0.1rem;
+    width: 6rem;
+    border-radius: 1px;
+    cursor: pointer;
+}
+textarea {
+    margin-left: 1.5rem;
+    border: none;
+    background-color: lightgray;
+    color: black;
+    height: 10em;
+    padding-left: 1em;
+    width: 30rem;
+    font-family: Arial;
+    padding-top: 0.7em;
+}
+@media (max-width: 768px) {
+    
+    .contact-card {
+        margin-top: 3em;
+        margin-left: 0.2em;
+        width: 25em;
+        height: 30em;
+        border-radius: 6px;
+        box-shadow: -2px 10px 17px 7px rgb(45 60 70 / 14%);
+        background-color: #ffffff;
+        margin-bottom: 20px;
+    }
+    .contact-card1 {
+        margin-top: 1rem;
+        margin-left: 0.2em;
+        width: 25em;
+        height: 30em;
+        border-radius: 6px;
+        box-shadow: -2px 10px 17px 7px rgb(45 60 70 / 14%);
+        background-color: #ffffff;
+        margin-bottom: 20px;
+    }
+    .hr-1 {
+        width: 20rem;
+    }
+    input[type=text] {
+        width: 20rem;
+    }
+    input[type=email] {
+        width: 20rem;
+    }
+    textarea {
+        width: 20rem;
+    }
+}
+
+
+
+
+
+/*Javascipt Popup*/
+.imgpop{
+    height: 7rem;
+    width: 7rem;
+    margin-left: 9.5rem;
+}
+.h1popup{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 4.5rem;
+}
+.popup-overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    backdrop-filter: blur(5px);
+    /*background: #3a3b3c;*/
+}
+.popup {
+    position: fixed;
+    top: -150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background: #f5f5f5;
+    font-family: "Raleway";
+    padding: 20px;
+    border-radius: 5px;
+    height: 15rem;
+    box-shadow: -2px 10px 17px 7px rgb(45 60 70 / 14%);
+    transition: 1s;
+}
+.popup .popup-close-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10.3rem;
+    width: 5rem;
+}
+body.body .popblur {
+    opacity: 1;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
+body.popup-active .popup {
+    top: 50%;
+}
+body.popup-active .popup-overlay {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+/*Akhil*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 44%;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list{
+    
+    width: 50%;
+    display: flex;
+    
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 25px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    color: grey;
+}
+
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../image/nightcitycar.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 75%;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf{
+    width: 28%;
+}
+
+.secondHalf img{
+    width: 189%;
+    
+    border: 3px solid white;
+    border-radius: 44px;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 34px;
+}
+
+.text-small{
+    font-size: 18px;
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 9px;
+    background: none;
+    color: white;
+    cursor: pointer;
+
+}
